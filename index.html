@@ -17,7 +17,9 @@
     <p>I made this website for my love because I need all the help I can get.</p>
     <h3>What list do you want to see?</h3>
     <div id="listMenu">
-      <h4 id="books">Books</h4>
+      <h4 id="books" onclick="showList('books')">Books</h4>
+      <!-- CHANGE LIST TO DIVS OR SOMETHING. DL WON'T WORK WITH DISPLAY FLEX -->
+      <!-- MAYBE NOT. USING DISPLAY BLOCK MAY WORK. -->
         <dl>
           <dt>The Stardust Thief</dt>
             <dd>Chelsea Abdullah</dd>
@@ -257,6 +259,10 @@
             <dd>Rebecca Yarros</dd>
         </dl>
       <h4 id="comics">Comics</h4>
+        <dl>
+          <dt>Chicken</dt>
+            <dd>Dark Horse</dd>
+        </dl>
       <h4 id="collectibles">Collectibles</h4>
       <h4 id="boardGames">Board Games</h4>
     </div>
