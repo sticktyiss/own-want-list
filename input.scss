@@ -9,6 +9,13 @@ header {
   }
 }
 
+main {
+  dl {  
+  }
+  dt {
+    font-size: 20px;
+  }
+}
 h4 {
   font-size: 30px;
 }
@@ -19,6 +26,7 @@ h4:hover {
 #books {
   font-family: monospace;
 }
+
 
 footer {
   background-color: aqua;
