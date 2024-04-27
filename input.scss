@@ -2,36 +2,41 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 150px;
-  background-color: rgb(182, 40, 182);
+  height: 100px;
+  // background-color: rgb(70, 62, 70);
   h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
+#listMenu {
+  background-color: black;
+  color: white;
+  display: flex;
+}
 h4 {
   font-size: 30px;
+  padding: 5px;
 }
 h4:hover {
-  background-color: green;
   cursor: pointer;
 }
 .section {
-  background-color: aquamarine;
-  display: flex;
+  display: none;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   div {
     background-color: chocolate;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
   }
   .book {
       display: flex;
       flex-direction: column;
       margin: 2px;
-      width: 200px;
       p {
         margin-top: 2px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       }
     }
 
