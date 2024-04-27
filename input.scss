@@ -8,14 +8,6 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
-
-main {
-  dl {  
-  }
-  dt {
-    font-size: 20px;
-  }
-}
 h4 {
   font-size: 30px;
 }
@@ -28,14 +20,25 @@ h4:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around;
   div {
     background-color: chocolate;
   }
+  .book {
+      display: flex;
+      flex-direction: column;
+      margin: 2px;
+      width: 200px;
+      p {
+        margin-top: 2px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    }
+
 }
 #books {
   font-family: monospace;
 }
-
 footer {
   background-color: aqua;
   height: 30px;
