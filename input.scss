@@ -16,6 +16,15 @@ h4:hover {
   background-color: green;
   cursor: pointer;
 }
+.section {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  div {
+    background-color: chocolate;
+  }
+}
 #books {
   font-family: monospace;
 }

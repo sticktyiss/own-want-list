@@ -18,6 +18,16 @@ h4:hover {
   cursor: pointer;
 }
 
+.section {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.section div {
+  background-color: chocolate;
+}
+
 #books {
   font-family: monospace;
 }
