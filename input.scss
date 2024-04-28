@@ -12,16 +12,14 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   nav {
-    // p {
-    //   font-family: monospace;
-    //   font-size: 3em;
-    //   animation: color-change 1s infinite;
+    // button {
+    //   animation: color-change 4s infinite;
     // }
-    
     // @keyframes color-change {
-    //   0% { color: red; }
-    //   50% { color: blue; }
-    //   100% { color: red; }
+    //   0% { color: $darkColor; }
+    //   16% { color: $blueColor; }
+    //   49% { color: $greyColor; }
+    //   82% { color: $darkColor; }
     // }
   }
 }
