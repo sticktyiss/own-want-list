@@ -54,6 +54,7 @@ header nav button:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 40px;
 }
 .section div {
   background-color: #E0E0E2;
