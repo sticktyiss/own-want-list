@@ -41,6 +41,22 @@ h4:hover {
     }
 }
 footer {
-  background-color: aqua;
-  height: 30px;
+  position: fixed;
+  bottom: 0px;
+  background-color: black;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 10px;
+  }
+  a:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
 }
