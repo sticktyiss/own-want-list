@@ -1,7 +1,6 @@
 
 const showList = (id) => {
-  const menu = document.getElementById(id);
-  const dlElement = menu.nextElementSibling;
+  const dlElement = document.getElementById(id);
   if (dlElement.style.display === "none") {
     dlElement.style.display = "flex"
   } else {

@@ -13,12 +13,16 @@
     <p>A list of owned things and wanted things.</br><span>This is meant to help with gifts.</span></p>
     <h2>Given how much I forget...</h2>
     <p>I made this website for my love because I need all the help I can get.</p>
-    <!-- <nav></nav> ADD THE H4 ELEMENTS TO A NAVBAR INSTEAD -->
+    <nav>
+      <button onclick="showList('books')">Books</button>
+      <button onclick="showList('comics')">Comics</button>
+      <button onclick="showList('collectibles')">Collectibles</button>
+      <button onclick="showList('boardGames')">Board Games</button>
+    </nav>
   </header>
   <main>
     <div id="listMenu">
-      <h4 id="books" onclick="showList('books')">Books</h4>
-        <div class="section">
+      <div class="section" id="books">
           <div class="book"><h5>The Stardust Thief</h5>
               <p class="author">Chelsea Abdullah</p>
             </div><div class="book"><h5>Fall of Ruin and Wrath</h5>
@@ -256,15 +260,21 @@
             </div><div class="book"><h5>Iron Flame</h5>
               <p class="author">Rebecca Yarros</p>
             </div>
+      </div>
+      <div class="section" id="comics">
+        <div><h5>Chicken</h5>
+          <p>Dark Horse</p>
         </div>
-      <h4 id="comics" onclick="showList('comics')">Comics</h4>
-        <div class="section">
-          <div class="comic"><h5>Chicken</h5>
-            <p class="producer">Dark Horse</p>
-          </div>
+      </div>
+      <div class="section" id="collectibles">
+        <div><h5>Chickapea</h5>
+          <p>2023</p>
         </div>
-      <h4 id="collectibles">Collectibles</h4>
-      <h4 id="boardGames">Board Games</h4>
+      </div>
+      <div class="section" id="boardGames">
+        <div><h5>Monopoly</h5>
+          <p>Spiderman</p>
+      </div>
     </div>
   </main>
   <footer>
