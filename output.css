@@ -1,14 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sedgwick+Ave+Display&display=swap");
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   height: 130px;
   background-color: #E0E0E2;
   color: #262626;
 }
 header h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 70px;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  animation: h1-change 5s infinite;
+  text-shadow: rgba(0, 0, 0, 0.619) 2px 1px 3px;
 }
+@keyframes h1-change {
+  0% {
+    color: #262626;
+  }
+  50% {
+    color: #3F84E5;
+  }
+  100% {
+    color: #262626;
+  }
+}
+header nav button {
+  border: none;
+  background-color: #E0E0E2;
+  color: #3F84E5;
+  font-family: "Sedgwick Ave Display";
+  font-size: 20px;
+  padding: 5px 15px;
+  margin: 0px 10px;
+}
+header nav button:hover {
+  background-color: #262626;
+  border-radius: 15px 15px 5px 5px;
+}
+
 #listMenu {
   background-color: #262626;
   color: #262626;
