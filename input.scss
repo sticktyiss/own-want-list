@@ -1,10 +1,15 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); // "Great Vibes"
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sedgwick+Ave+Display&display=swap'); // "Sedgwick Ave Display"
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); // "Poetsen One"
+
 
 $darkColor: #262626;
 $blueColor: #3F84E5;
 $greyColor: #E0E0E2;
+$aloraColor: rgb(82, 6, 82);
+$tyColor: rgba(46, 207, 46, 0.395);
+$soldColor: yellow;
 
 header {
   display: flex;
@@ -58,14 +63,44 @@ header {
   div {
     background-color: $greyColor;
     padding: 5px;
-    width: 200px;
-    border-radius: 5px;
+    width: 150px;
+    border-radius: 10px;
+    border: $greyColor solid 4px;
     display: flex;
     flex-direction: column;
-    margin: 2px;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 20px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        // 3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;    
+    font-family: 'Poetsen One', Arial, sans-serif;
     p {
       margin-top: 2px;
+      font-size: 13px;
+      align-self: flex-end;
     }
+  }
+  .book img {
+    height:fit-content;
+    // margin-bottom: 20px;
+  }
+  .alora {
+    background-color: $aloraColor;
+  }
+  .tyiss {
+    background-color: $tyColor;
+  }
+  .bothRead {
+    background-image: linear-gradient(90deg, $aloraColor, $tyColor);
+  }
+  .sold {
+    border-color: $soldColor;
   }
 }
 footer {
