@@ -16,19 +16,7 @@ header h1 {
   font-size: 70px;
   margin-top: 20px;
   letter-spacing: 5px;
-  animation: h1-change 5s infinite;
   text-shadow: rgba(0, 0, 0, 0.619) 2px 1px 3px;
-}
-@keyframes h1-change {
-  0% {
-    color: #262626;
-  }
-  50% {
-    color: #3F84E5;
-  }
-  100% {
-    color: #262626;
-  }
 }
 header nav button {
   border: none;
@@ -41,7 +29,8 @@ header nav button {
 }
 header nav button:hover {
   background-color: #262626;
-  border-radius: 15px 15px 5px 5px;
+  border-radius: 15px;
+  box-shadow: #3F84E5 4px 4px 0px;
 }
 
 #listMenu {
@@ -50,12 +39,17 @@ header nav button:hover {
   display: flex;
 }
 
+#home {
+  height: 100vh;
+  color: #E0E0E2;
+}
+
 .section {
   display: none;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-bottom: 40px;
+  margin: 30px;
 }
 .section div {
   background-color: #E0E0E2;
@@ -63,6 +57,7 @@ header nav button:hover {
   width: 150px;
   border-radius: 10px;
   border: #E0E0E2 solid 4px;
+  box-shadow: rgba(0, 0, 0, 0.384) 4px 4px 3px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -73,10 +68,14 @@ header nav button:hover {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Poetsen One", Arial, sans-serif;
 }
+.section div h2 {
+  letter-spacing: 1px;
+}
 .section div p {
   margin-top: 2px;
   font-size: 13px;
   align-self: flex-end;
+  letter-spacing: 1px;
 }
 .section .book img {
   height: fit-content;
