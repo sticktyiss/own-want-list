@@ -6,18 +6,33 @@ $tyColor: rgba(46, 207, 46, 0.395);
 $soldColor: yellow;
 
 header {
-
+  height: 25vw;
   h1 {
     font-size: 10vw;
     text-align: center;
     font-weight: 700;
-    letter-spacing: .5px;
-    margin-top: 3vh;
+    letter-spacing: .5vw;
+    margin-top: 2vh;
   }
   nav {
     button {
       margin: 0px 2vw 1vh 2vw;
       padding: 1vw;
+      font-size: 4.25vw;
+    }
+  }
+}
+.section {
+  padding: 0px;
+  margin: 0px 2px;
+  div {
+    margin: 1vh 0px;
+    width: 40vw;
+    h2 {
+      font-size: 5vw;
+    }
+    p {
+      font-size: 3vw;
     }
   }
 }

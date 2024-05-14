@@ -12,6 +12,8 @@ $tyColor: rgba(46, 207, 46, 0.395);
 $soldColor: yellow;
 
 header {
+  // position: sticky;
+  // top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +31,6 @@ header {
   }
   nav {
     button {
-      // border: transparent solid 4px;
       border: none;
       background-color: $greyColor;
       color: $blueColor;
@@ -37,11 +38,6 @@ header {
       font-size: 20px;
       padding: 5px 15px;
       margin: 0px 10px;
-      // text-shadow: 
-      // -1px -1px 0 #ffffff,  
-      // 1px -1px 0 #ffffff,
-      // -1px 1px 0 #ffffff,
-      // 1px 1px 0 #ffffff;
     }
     button:hover{
       background-color: $darkColor;
