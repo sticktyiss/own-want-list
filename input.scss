@@ -118,6 +118,15 @@ header {
     border-color: $soldColor;
   }
 }
+#legend { //FIXME: NOT SHOWING UP (Targeting isn't accurate somehow
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  // display: flex;
+  // position: absolute;
+  // top: 60vh;
+  // left: 0px;
+}
 footer {
   position: fixed;
   bottom: 0px;
