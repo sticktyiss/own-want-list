@@ -17,7 +17,13 @@ const showList = (id) => {
     dlElement.style.display = "flex"
   } else {
     dlElement.style.display = "none";
-  }
+  };
+  //show legend on Book page only
+  if (id === "books") {
+    legend.style.display = "block";
+  } else {
+    legend.style.display = "none";
+  };
 };
 
 legend.addEventListener(

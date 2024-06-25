@@ -102,6 +102,7 @@ header nav button:hover {
 .legend {
   background-color: #E0E0E2;
   color: #3F84E5;
+  display: none;
   position: absolute;
   top: 200px;
   left: 0px;

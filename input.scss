@@ -118,11 +118,12 @@ header {
     border-color: $soldColor;
   }
 }
-.legend { //TODO: Add JS function to have legend only show when on books "tab"
+.legend {
   background-color: $greyColor;
   // height: 200px;
   // width: 200px;
   color: $blueColor;
+  display: none;
   position: absolute;
   top: 200px;
   left: 0px;
@@ -138,7 +139,7 @@ header {
   }
   #legendGroup {
     display: none;
-  } //TODO: Add JS function to have #legendGroup appear when .legend is hovered
+  }
 }
 footer {
   position: fixed;
