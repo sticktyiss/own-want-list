@@ -1,10 +1,12 @@
+const homeDiv = document.getElementById("home");
+const booksDiv = document.getElementById("books");
+const boardGamesDiv = document.getElementById("boardGames");
+const comicsDiv = document.getElementById("comics");
+const collectiblesDiv = document.getElementById("collectibles");
+const legend = document.querySelector(".legend");
+const legendGroup = document.querySelector("#legendGroup");
 
 const showList = (id) => {
-  const homeDiv = document.getElementById("home");
-  const booksDiv = document.getElementById("books");
-  const boardGamesDiv = document.getElementById("boardGames");
-  const comicsDiv = document.getElementById("comics");
-  const collectiblesDiv = document.getElementById("collectibles");
   homeDiv.style.display = "none";
   booksDiv.style.display = "none";
   boardGamesDiv.style.display = "none";
@@ -17,3 +19,12 @@ const showList = (id) => {
     dlElement.style.display = "none";
   }
 };
+
+legend.addEventListener(
+  "mouseover",
+  () => legendGroup.style.display = "flex"
+);
+legend.addEventListener(
+  "mouseout",
+  () => legendGroup.style.display = "none"
+);
