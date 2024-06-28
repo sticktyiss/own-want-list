@@ -139,6 +139,16 @@ header {
   }
   #legendGroup {
     display: none;
+    width: 100px;
+    margin: 5px;
+    flex-wrap: wrap;
+
+    p, div {
+      margin: 3px;
+    }
+    p {
+      color: $darkColor;
+    }
   }
 }
 footer {

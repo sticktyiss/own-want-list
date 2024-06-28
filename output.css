@@ -118,6 +118,15 @@ header nav button:hover {
 }
 .legend #legendGroup {
   display: none;
+  width: 100px;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+.legend #legendGroup p, .legend #legendGroup div {
+  margin: 3px;
+}
+.legend #legendGroup p {
+  color: #262626;
 }
 
 footer {
