@@ -139,14 +139,12 @@ header {
   }
   #legendGroup {
     display: none;
-    width: 100px;
+    width: fit-content;
     margin: 5px;
-    flex-wrap: wrap;
+    flex-direction: column;
 
-    p, div {
+    p{
       margin: 3px;
-    }
-    p {
       color: $darkColor;
     }
   }

@@ -118,14 +118,12 @@ header nav button:hover {
 }
 .legend #legendGroup {
   display: none;
-  width: 100px;
+  width: fit-content;
   margin: 5px;
-  flex-wrap: wrap;
-}
-.legend #legendGroup p, .legend #legendGroup div {
-  margin: 3px;
+  flex-direction: column;
 }
 .legend #legendGroup p {
+  margin: 3px;
   color: #262626;
 }
 
