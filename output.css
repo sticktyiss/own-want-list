@@ -62,10 +62,10 @@ header nav button:hover {
   flex-direction: column;
   margin: 10px;
   font-size: 20px;
-  -webkit-text-stroke: 1px black;
   font-family: "Poetsen One", Arial, sans-serif;
 }
 .section div h2 {
+  -webkit-text-stroke: 1px black;
   color: white;
   background-color: #262626;
   padding: 1px 5px;
@@ -124,10 +124,13 @@ header nav button:hover {
 }
 .legend #legendGroup p {
   margin: 3px;
-  color: #262626;
+  color: white;
   font-family: "Poetsen One";
   font-size: 15px;
+  letter-spacing: 1px;
   padding: 5px 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 2px #262626;
 }
 
 #aloraBox {

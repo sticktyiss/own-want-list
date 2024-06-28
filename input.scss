@@ -78,9 +78,9 @@ header {
     // justify-content: space-between;
     margin: 10px;
     font-size: 20px;
-    -webkit-text-stroke: 1px black;
     font-family: 'Poetsen One', Arial, sans-serif;
     h2 {
+        -webkit-text-stroke: 1px black;
         color: white;
         // text-shadow:
         //   -1px -1px 0 #000,  
@@ -132,7 +132,6 @@ header {
   border-left: none;
   border-radius: 0px 10px 10px 0px;
   padding: 5px;
-  // text-align: center;
   h3 {
     font-size: 25px;
     font-family: "Sedgwick Ave Display";
@@ -145,13 +144,17 @@ header {
     flex-direction: column;
     p{
       margin: 3px;
-      color: $darkColor;
+      color: white;
       font-family: $fontBubble;
       font-size: 15px;
+      letter-spacing: 1px;
       padding: 5px 10px;
+      border-radius: 10px;
+      text-shadow: 1px 1px 2px $darkColor;
     }
   }
-}      
+}
+// BEGIN legend specifics
 #aloraBox {
   background-color: $aloraColor;
 }
@@ -161,7 +164,6 @@ header {
 #soldBox {
   border: 3px solid $soldColor;
 }
-
 footer {
   position: fixed;
   bottom: 0px;
