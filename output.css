@@ -130,6 +130,18 @@ header nav button:hover {
   padding: 5px 10px;
 }
 
+#aloraBox {
+  background-color: rgb(82, 6, 82);
+}
+
+#tyissBox {
+  background-color: rgba(46, 207, 46, 0.395);
+}
+
+#soldBox {
+  border: 3px solid yellow;
+}
+
 footer {
   position: fixed;
   bottom: 0px;

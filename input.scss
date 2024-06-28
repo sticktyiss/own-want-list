@@ -149,10 +149,19 @@ header {
       font-family: $fontBubble;
       font-size: 15px;
       padding: 5px 10px;
-      // #aloraBox {}
     }
   }
+}      
+#aloraBox {
+  background-color: $aloraColor;
 }
+#tyissBox {
+  background-color: $tyColor;
+}
+#soldBox {
+  border: 3px solid $soldColor;
+}
+
 footer {
   position: fixed;
   bottom: 0px;
