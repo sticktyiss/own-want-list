@@ -1,7 +1,10 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); // "Great Vibes"
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sedgwick+Ave+Display&display=swap'); // "Sedgwick Ave Display"
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); // "Poetsen One"
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); // 
+$fontCursive: "Great Vibes";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sedgwick+Ave+Display&display=swap');
+$fontGraffiti: "Sedgwick Ave Display";
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap'); // 
+$fontBubble: "Poetsen One";
 
 
 $darkColor: #262626;
@@ -120,8 +123,6 @@ header {
 }
 .legend {
   background-color: $greyColor;
-  // height: 200px;
-  // width: 200px;
   color: $blueColor;
   display: none;
   position: absolute;
@@ -146,6 +147,7 @@ header {
     p{
       margin: 3px;
       color: $darkColor;
+      // font-family: ;
     }
   }
 }
