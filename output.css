@@ -125,6 +125,9 @@ header nav button:hover {
 .legend #legendGroup p {
   margin: 3px;
   color: #262626;
+  font-family: "Poetsen One";
+  font-size: 15px;
+  padding: 5px 10px;
 }
 
 footer {

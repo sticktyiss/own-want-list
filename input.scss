@@ -143,11 +143,13 @@ header {
     width: fit-content;
     margin: 5px;
     flex-direction: column;
-
     p{
       margin: 3px;
       color: $darkColor;
-      // font-family: ;
+      font-family: $fontBubble;
+      font-size: 15px;
+      padding: 5px 10px;
+      // #aloraBox {}
     }
   }
 }
