@@ -57,8 +57,12 @@ header {
   display: flex;
 }
   #home {
-    height: 100vh;
+    height: 90vh;
+    width: 100%;
     color: #E0E0E2;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
   }
 .section {
   display: none;
