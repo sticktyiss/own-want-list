@@ -83,6 +83,17 @@ header nav button:hover {
   padding: 1px 3px;
   border-radius: 5px;
 }
+.section div:hover {
+  animation: bookHover 2s;
+}
+@keyframes bookHover {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 10px;
+  }
+}
 .section .book img {
   height: fit-content;
 }

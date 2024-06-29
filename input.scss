@@ -104,6 +104,13 @@ header {
         border-radius: 5px;
     }
   }
+  div:hover {
+    animation: bookHover 2s;
+  }
+  @keyframes bookHover {
+    from {bottom: 0px;}
+    to {bottom: 10px;}
+  }
   .book img {
     height:fit-content;
     // margin-bottom: 20px;
