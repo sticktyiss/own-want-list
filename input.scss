@@ -66,6 +66,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 30px;
+  // TODO: Add click effect to "zoom" the picture of the element.
   div {
     background-color: $greyColor;
     padding: 5px;
@@ -126,11 +127,13 @@ header {
     border-color: $soldColor;
   }
 }
+// FIXME: legend decided to go behind book elements. :[
 .legend {
   background-color: $greyColor;
   color: $blueColor;
   display: none;
   position: fixed;
+  z-index: 5000;
   top: 120px;
   left: 0px;
   border: 4px solid $blueColor;

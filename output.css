@@ -109,6 +109,7 @@ header nav button:hover {
   color: #3F84E5;
   display: none;
   position: fixed;
+  z-index: 5000;
   top: 120px;
   left: 0px;
   border: 4px solid #3F84E5;
