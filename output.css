@@ -84,7 +84,8 @@ header nav button:hover {
   border-radius: 5px;
 }
 .section div:hover {
-  animation: bookHover 2s;
+  animation: bookHover 1s;
+  position: relative;
 }
 @keyframes bookHover {
   from {

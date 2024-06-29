@@ -105,7 +105,8 @@ header {
     }
   }
   div:hover {
-    animation: bookHover 2s;
+    animation: bookHover 1s;
+    position: relative;
   }
   @keyframes bookHover {
     from {bottom: 0px;}
