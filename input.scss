@@ -73,6 +73,8 @@ header {
     border-radius: 10px;
     border: $greyColor solid 4px;
     box-shadow: rgba(0, 0, 0, 0.384) 4px 4px 3px;
+    position: relative;
+    transition: transform .3s ease;
     display: flex;
     flex-direction: column;
     // justify-content: space-between;
@@ -105,12 +107,7 @@ header {
     }
   }
   div:hover {
-    animation: bookHover 1s;
-    position: relative;
-  }
-  @keyframes bookHover {
-    from {bottom: 0px;}
-    to {bottom: 10px;}
+    transform: translateY(-10px);
   }
   .book img {
     height:fit-content;
